@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HennyMoney Afric</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HennyMoney Afric</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
@@ -26,39 +25,40 @@
 </section>
 
 <section id="music" class="section dark">
-  <h2>Music</h2>
-  <p>Afrobeat • Amapiano • African Sound</p>
-  <p>Discover exclusive tracks and digital releases from HennyMoney Afric.</p>
-  <a href="#" class="btn">Listen Now</a>
+  <h2>Music Releases</h2>
+  <div id="music-list"></div>
 </section>
 
 <section id="travel" class="section">
-  <h2>Travel Africa</h2>
-  <p>Explore West Africa through guides, culture, experiences and hidden gems.</p>
-  <ul>
-    <li>Travel guides</li>
-    <li>Local experiences</li>
-    <li>City insights</li>
-    <li>Hidden destinations</li>
-  </ul>
-  <a href="#" class="btn">Explore Travel</a>
+  <h2>Tour Experiences</h2>
+  <div id="tour-list"></div>
 </section>
 
-<section id="shop" class="section dark">
-  <h2>Digital Shop</h2>
-  <p>Exclusive digital products, music packs and premium content.</p>
-  <a href="https://selar.co/your-product" class="btn">Visit Shop</a>
+<section id="donate" class="section dark">
+  <h2>Support My Journey ❤️</h2>
+  <p>Help fuel music and creative projects.</p>
+  <a href="https://selar.com/showlove/hennymoneyafric" class="btn">Show Love</a>
 </section>
 
 <section id="contact" class="section">
   <h2>Contact</h2>
   <p>Business inquiries & collaborations.</p>
-  <p>Email: hennymoneyafric@outlook.com</p>
+  <p>Email: <a href="mailto:hennymoneyafric@outlook.com">hennymoneyafric@outlook.com</a></p>
 </section>
+
+<div id="chatbox">
+  <h3>Ask AI</h3>
+  <input id="chat-input" placeholder="Ask something...">
+  <button onclick="sendQuestion()">Send</button>
+  <p id="chat-response"></p>
+</div>
 
 <footer>
   <p>© 2026 HennyMoney Afric. All Rights Reserved.</p>
 </footer>
+
+<script src="script.js"></script>
+<script src="chatbot.js"></script>
 
 </body>
 </html>
