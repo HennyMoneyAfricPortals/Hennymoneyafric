@@ -1,43 +1,53 @@
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
-  background: #111;
-  color: white;
+  background: #f4f4f4;
+  margin: 0;
+  text-align: center;
 }
 
 header {
-  background: black;
-  padding: 20px;
-  text-align: center;
+  background: #111;
+  color: white;
+  padding: 30px;
 }
 
 nav a {
-  margin: 0 10px;
-  color: gold;
+  margin: 10px;
+  color: white;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .section {
-  padding: 80px 20px;
-  text-align: center;
+  padding: 40px;
 }
 
 .dark {
-  background: #1c1c1c;
+  background: #222;
+  color: white;
 }
 
-button {
+.btn {
+  background: #0084ff;
+  color: white;
   padding: 10px 20px;
-  margin-top: 15px;
-  background: gold;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-footer {
-  background: black;
-  text-align: center;
-  padding: 20px;
+#music-list, #tour-list {
+  display: grid;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#chatbox {
+  margin: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
 }
